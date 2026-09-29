@@ -9,11 +9,11 @@ import { editorFontFallback } from '../config/editor-fonts.js';
 import { needsFontEmbedding } from '../utils/freetext-script.js';
 
 const embedPdfWasmUrl = new URL(
-  'bankpdf-pdfium/editcore.wasm',
+  'bentopdf-pdfium/editcore.wasm',
   import.meta.url
 ).href;
 
-import type { EmbedPdfContainer } from 'bankpdf-viewer';
+import type { EmbedPdfContainer } from 'bentopdf-viewer';
 import type {
   AnnotationPluginLite,
   DocManagerPlugin,
@@ -176,7 +176,7 @@ async function handleFiles(files: FileList) {
       pdfContainer.textContent = '';
       pdfWrapper.classList.remove('hidden');
 
-      const { default: EmbedPDF } = await import('bankpdf-viewer');
+      const { default: EmbedPDF } = await import('bentopdf-viewer');
       const disabledCategories = getEditorDisabledCategories();
       viewerInstance = EmbedPDF.init({
         disabledCategories,
