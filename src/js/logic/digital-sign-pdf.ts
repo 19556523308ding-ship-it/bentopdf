@@ -114,7 +114,7 @@ export function parseCombinedPem(
 const DEFAULT_CORS_PROXY_URL =
   'https://bentopdf-cors-proxy.bentopdf.workers.dev';
 
-const OFFICIAL_HOSTNAMES = new Set(['bentopdf.com', 'www.bentopdf.com']);
+const OFFICIAL_HOSTNAMES = new Set(['bentopdf.com', 'pdf.jinzhai.icu']);
 
 function resolveCorsProxyUrl(): string {
   const configured = import.meta.env.VITE_CORS_PROXY_URL || '';

@@ -164,8 +164,8 @@ describe('timestampPdf', () => {
       configurable: true,
       value: {
         protocol: 'https:',
-        origin: 'https://www.bentopdf.com',
-        hostname: 'www.bentopdf.com',
+        origin: 'https://pdf.jinzhai.icu',
+        hostname: 'pdf.jinzhai.icu',
       },
     });
     vi.resetModules();

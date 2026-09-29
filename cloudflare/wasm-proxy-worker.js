@@ -18,7 +18,7 @@
  * - CPDF_SOURCE: Base URL for CoherentPDF files (e.g., https://cdn.example.com/cpdf)
  */
 
-const ALLOWED_ORIGINS = ['https://www.bentopdf.com', 'https://bentopdf.com'];
+const ALLOWED_ORIGINS = ['https://pdf.jinzhai.icu', 'https://pdf.jinzhai.icu'];
 
 const MAX_FILE_SIZE_BYTES = 100 * 1024 * 1024;
 

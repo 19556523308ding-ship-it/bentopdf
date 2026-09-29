@@ -1,18 +1,18 @@
 body.lp {
-  --lp-bg: #222222;
-  --lp-bg-2: #2a2a2a;
-  --lp-bg-3: #383838;
-  --lp-well: #222222;
-  --lp-line: rgba(255, 255, 255, 0.1);
-  --lp-line-2: rgba(255, 255, 255, 0.2);
-  --lp-text: #f3f3f1;
-  --lp-text-2: #b4b4b0;
-  --lp-dim: #8d8d89;
-  --lp-accent: #6366f1;
-  --lp-accent-hover: #4f46e5;
-  --lp-accent-2: #818cf8;
-  --lp-accent-3: #a5b4fc;
-  --lp-white: #f4f4f1;
+  --lp-bg: #0b2545;
+  --lp-bg-2: #13335a;
+  --lp-bg-3: #1a4272;
+  --lp-well: #081d38;
+  --lp-line: rgba(220, 229, 238, 0.15);
+  --lp-line-2: rgba(220, 229, 238, 0.28);
+  --lp-text: #f4f7fa;
+  --lp-text-2: #cbd5e1;
+  --lp-dim: #94a3b8;
+  --lp-accent: #0f766e;
+  --lp-accent-hover: #0b5e58;
+  --lp-accent-2: #14b8a6;
+  --lp-accent-3: #2dd4bf;
+  --lp-white: #ffffff;
   --lp-display: 'DM Sans', ui-sans-serif, system-ui, sans-serif;
   --lp-mono:
     ui-monospace, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace;
@@ -22,7 +22,7 @@ body.lp {
 }
 
 body.lp ::selection {
-  background: rgba(99, 102, 241, 0.45);
+  background: rgba(15, 118, 110, 0.5);
   color: #fff;
 }
 

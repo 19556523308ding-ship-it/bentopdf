@@ -42,4 +42,4 @@ id = "b88e030b308941118cd484e3fcb3ae49"
 
 # Optional: Environment variables (for non-secret config)
 # [vars]
-# ALLOWED_ORIGINS = "https://www.bentopdf.com,https://bentopdf.com"
+# ALLOWED_ORIGINS = "https://pdf.jinzhai.icu,https://pdf.jinzhai.icu"

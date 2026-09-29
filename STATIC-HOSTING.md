@@ -65,7 +65,7 @@ If/when you merge changes from the source BentoPDF repository, the build and dep
 ## SEO and search engine indexing
 
 By default, every self-hosted BentoPDF build emits canonical URLs and an
-hreflang/`x-default` set that point back to `https://www.bentopdf.com`. This
+hreflang/`x-default` set that point back to `https://pdf.jinzhai.icu`. This
 is intentional for two reasons:
 
 1. **It consolidates SEO signals to the official site** so your instance

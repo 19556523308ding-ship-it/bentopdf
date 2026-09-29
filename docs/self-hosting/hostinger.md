@@ -143,7 +143,7 @@ AddType image/webp .webp
 # ============================================
 # Canonical WWW (update domain as needed)
 RewriteCond %{HTTP_HOST} ^bentopdf\.com [NC]
-RewriteRule ^(.*)$ https://www.bentopdf.com/$1 [L,R=301]
+RewriteRule ^(.*)$ https://pdf.jinzhai.icu/$1 [L,R=301]
 
 # Force HTTPS
 RewriteCond %{HTTPS} off
