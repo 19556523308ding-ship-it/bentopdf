@@ -878,13 +878,14 @@ body.lp ::selection {
 }
 
 .lp-cell--raised:hover {
-  background-color: #3e3e40;
+  background-color: #e2e8f0;
 }
 
 .lp-cell--hatch {
+  background-color: #ffffff;
   background-image: repeating-linear-gradient(
     135deg,
-    rgba(255, 255, 255, 0.06) 0 1px,
+    rgba(15, 23, 42, 0.04) 0 1px,
     transparent 1px 10px
   );
 }

@@ -352,7 +352,22 @@ footer a {
 .marker-slanted {
   position: relative;
   display: inline-block;
-  color: #8d8d89;
+  color: #0f766e;
+  font-weight: 700;
+  padding: 0 4px;
+}
+
+.marker-slanted::after {
+  content: '';
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  bottom: 2px;
+  height: 38%;
+  background: rgba(20, 184, 166, 0.2);
+  z-index: -1;
+  border-radius: 4px;
+  transform: skewX(-12deg);
 }
 
 .section-divider {
@@ -1724,3 +1739,214 @@ details > summary .icon {
   gap: 0.25rem;
   padding: 0.25rem 0;
 }
+
+/* ============================================================
+   Global High-Contrast & Fresh Light Theme Fixes
+   ============================================================ */
+
+/* 1. Fix headings that were hardcoded with text-white in light background */
+#features-section h2.text-white,
+#tools-header h2.text-white,
+#features-section .text-white,
+#tools-header .text-white,
+#tool-landing h1.text-white,
+#tool-landing h2.text-white,
+#tool-landing h3.text-white,
+#uploader h1.text-white,
+#uploader h2.text-white,
+#uploader h3.text-white,
+section h2.text-white,
+section h3.text-white {
+  color: #0b2545 !important;
+}
+
+/* 2. Fix subtitle text readability */
+#tools-header p.text-gray-400,
+#uploader p.text-gray-400,
+#tool-landing p.text-gray-400,
+.text-gray-400 {
+  color: #475569;
+}
+
+/* 3. Search Bar styling in light theme */
+#search-bar {
+  background-color: #ffffff !important;
+  color: #0b2545 !important;
+  border-color: rgba(15, 23, 42, 0.15) !important;
+  box-shadow: 0 4px 14px rgba(11, 37, 69, 0.05);
+}
+
+#search-bar::placeholder {
+  color: #94a3b8 !important;
+}
+
+#search-bar:focus {
+  border-color: #0f766e !important;
+  box-shadow: 0 0 0 3px rgba(15, 118, 110, 0.15) !important;
+}
+
+#shortcut {
+  background-color: #f1f5f9 !important;
+  color: #475569 !important;
+  border-color: rgba(15, 23, 42, 0.1) !important;
+}
+
+#open-shortcuts-btn {
+  color: #64748b !important;
+}
+
+#open-shortcuts-btn:hover {
+  background-color: #f1f5f9 !important;
+  color: #0b2545 !important;
+}
+
+/* 4. Sub-tool pages (uploader & how it works) light theme styling */
+body.bg-gray-900,
+div#uploader.bg-gray-900 {
+  background-color: #f8fafc !important;
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(20, 184, 166, 0.07) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(14, 165, 233, 0.07) 0px, transparent 50%) !important;
+  background-attachment: fixed !important;
+  color: #1e293b !important;
+}
+
+#tool-uploader.bg-gray-800 {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(15, 23, 42, 0.08) !important;
+  box-shadow: 0 10px 30px -5px rgba(11, 37, 69, 0.08), 0 4px 12px rgba(11, 37, 69, 0.03) !important;
+}
+
+#tool-uploader h1 {
+  color: #0b2545 !important;
+}
+
+#tool-uploader p {
+  color: #475569 !important;
+}
+
+#drop-zone.bg-gray-900 {
+  background-color: #f8fafc !important;
+  border-color: rgba(15, 23, 42, 0.15) !important;
+}
+
+#drop-zone:hover {
+  background-color: #f1f5f9 !important;
+  border-color: #0f766e !important;
+}
+
+#drop-zone i,
+#drop-zone p,
+#drop-zone span {
+  color: #475569 !important;
+}
+
+#drop-zone p span.font-semibold {
+  color: #0b2545 !important;
+}
+
+/* 5. Tool Landing sections: How It Works & Related Tools */
+#tool-landing {
+  background-color: transparent !important;
+}
+
+#tool-landing h2,
+#tool-landing h3,
+section h2,
+section h3 {
+  color: #0b2545 !important;
+}
+
+#tool-landing p,
+section p {
+  color: #475569 !important;
+}
+
+/* Related tools cards */
+section a.bg-gray-800 {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(15, 23, 42, 0.08) !important;
+  box-shadow: 0 4px 12px rgba(11, 37, 69, 0.03) !important;
+}
+
+section a.bg-gray-800:hover {
+  background-color: #ffffff !important;
+  border-color: rgba(15, 118, 110, 0.3) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px -4px rgba(15, 118, 110, 0.12) !important;
+}
+
+section a.bg-gray-800 h3 {
+  color: #0b2545 !important;
+}
+
+section a.bg-gray-800 p {
+  color: #64748b !important;
+}
+
+/* How it works circles */
+#tool-landing .bg-indigo-600 {
+  background-color: #0f766e !important;
+  color: #ffffff !important;
+}
+
+/* How it works panels & help boxes */
+#range-panel .bg-gray-900,
+#all-pages-panel .bg-gray-900,
+#visual-select-panel .bg-gray-900,
+#bookmarks-panel .bg-gray-900,
+#n-times-panel .bg-gray-900,
+#custom-settings-panel.bg-gray-900 {
+  background-color: #f1f5f9 !important;
+  border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+#range-panel strong,
+#all-pages-panel strong,
+#visual-select-panel strong,
+#bookmarks-panel strong,
+#n-times-panel strong {
+  color: #0b2545 !important;
+}
+
+#range-panel li,
+#all-pages-panel li,
+#visual-select-panel li,
+#bookmarks-panel li,
+#n-times-panel li,
+#range-panel p,
+#all-pages-panel p,
+#visual-select-panel p,
+#bookmarks-panel p,
+#n-times-panel p {
+  color: #475569 !important;
+}
+
+/* Form selects and inputs inside tools */
+#split-mode,
+#bookmark-level,
+#image-quality,
+#dpi-target,
+#dpi-threshold {
+  background-color: #ffffff !important;
+  color: #0b2545 !important;
+  border-color: rgba(15, 23, 42, 0.15) !important;
+}
+
+label[for="split-mode"],
+label[for="bookmark-level"],
+label[for="image-quality"],
+label[for="dpi-target"],
+label[for="dpi-threshold"] {
+  color: #334155 !important;
+}
+
+/* Back to tools button */
+#back-to-tools {
+  color: #0f766e !important;
+}
+
+#back-to-tools:hover {
+  color: #0d9488 !important;
+}
+
