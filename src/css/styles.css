@@ -319,11 +319,34 @@ footer a {
 }
 
 .nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium transition-colors;
+  color: #334155;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  display: inline-flex;
+  align-items: center;
+}
+
+.nav-link:hover {
+  color: #0f766e;
+  background-color: #f1f5f9;
 }
 
 .mobile-nav-link {
-  @apply text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium transition-colors;
+  color: #334155;
+  display: block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+}
+
+.mobile-nav-link:hover {
+  color: #0f766e;
+  background-color: #f1f5f9;
 }
 
 .marker-slanted {
@@ -1539,10 +1562,10 @@ details > summary .icon {
   z-index: 40;
   width: 320px;
   padding: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(15, 23, 42, 0.08);
   border-radius: 12px;
-  background: #2a2a2a;
-  box-shadow: 0 18px 44px -12px rgba(0, 0, 0, 0.7);
+  background: #ffffff;
+  box-shadow: 0 18px 44px -12px rgba(11, 37, 69, 0.15), 0 4px 12px rgba(11, 37, 69, 0.05);
   transform: translateX(-50%);
 }
 
@@ -1552,11 +1575,11 @@ details > summary .icon {
   gap: 12px;
   padding: 12px;
   border-radius: 8px;
-  transition: background-color 0.2s;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-products-menu a:hover {
-  background: #383838;
+  background: #f1f5f9;
 }
 
 .nav-product-text {
@@ -1569,13 +1592,18 @@ details > summary .icon {
 .nav-product-text b {
   font-size: 14px;
   font-weight: 600;
-  color: #fff;
+  color: #0b2545;
+  transition: color 0.2s;
+}
+
+.nav-products-menu a:hover .nav-product-text b {
+  color: #0f766e;
 }
 
 .nav-product-text small {
   font-size: 12px;
   line-height: 1.45;
-  color: #a3a3a0;
+  color: #64748b;
 }
 
 .faq-list {
