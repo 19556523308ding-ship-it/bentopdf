@@ -1,5 +1,5 @@
 {{#if simpleMode}} {{> navbar-simple}} {{else}}
-<nav class="bg-gray-900 border-b border-white/10 sticky top-0 z-30">
+<nav class="bg-white/90 backdrop-blur-md border-b border-slate-200/80 sticky top-0 z-30 shadow-sm">
   <div class="container mx-auto px-4">
     <div class="flex justify-between items-center h-16">
       <div
@@ -12,7 +12,7 @@
           alt="{{#if brandName}}{{brandName}}{{else}}Bento PDF{{/if}} Logo"
           class="h-8 w-8"
         />
-        <span id="nav-brand" class="text-white font-bold text-xl ml-2">
+        <span id="nav-brand" class="text-slate-900 font-bold text-xl ml-2 tracking-tight">
           <a href="/">{{#if brandName}}{{brandName}}{{else}}BentoPDF{{/if}}</a>
         </span>
       </div>
@@ -21,11 +21,11 @@
       <div
         class="hidden lg:flex flex-1 items-center justify-center space-x-2 xl:space-x-8"
       >
-        <a href="/" class="nav-link" data-i18n="nav.home">Home</a>
-        <a href="https://jinzhai.icu" class="nav-link text-teal-400 font-semibold hover:text-teal-300" target="_blank" rel="noopener noreferrer">Bank Converter</a>
-        <a href="/about" class="nav-link" data-i18n="nav.about">About</a>
-        <a href="/contact" class="nav-link" data-i18n="nav.contact">Contact</a>
-        <a href="/licensing" class="nav-link" data-i18n="nav.licensing"
+        <a href="/" class="nav-link text-slate-700 hover:text-teal-700 font-medium" data-i18n="nav.home">Home</a>
+        <a href="https://jinzhai.icu" class="nav-link text-teal-600 font-semibold hover:text-teal-700" target="_blank" rel="noopener noreferrer">Bank Converter</a>
+        <a href="/about" class="nav-link text-slate-700 hover:text-teal-700 font-medium" data-i18n="nav.about">About</a>
+        <a href="/contact" class="nav-link text-slate-700 hover:text-teal-700 font-medium" data-i18n="nav.contact">Contact</a>
+        <a href="/licensing" class="nav-link text-slate-700 hover:text-teal-700 font-medium" data-i18n="nav.licensing"
           >Licensing</a
         >
         <div class="nav-products">
@@ -66,13 +66,13 @@
 
       <div class="hidden lg:flex items-center flex-shrink-0">
         <a
-          href="https://github.com/alam00000/bentopdf/"
+          href="https://github.com/19556523308ding-ship-it/bentopdf"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center gap-1.5 text-sm font-medium bg-gray-800 text-gray-200 border border-gray-600 pl-2.5 pr-3 py-1 rounded-full transition-colors duration-200 shadow-sm hover:shadow-md hover:bg-gray-700"
+          class="inline-flex items-center gap-1.5 text-sm font-medium bg-slate-100 text-slate-700 border border-slate-300 pl-2.5 pr-3 py-1 rounded-full transition-all duration-200 shadow-sm hover:shadow-md hover:bg-slate-200 hover:text-slate-900"
         >
           <svg
-            class="w-4 h-4 flex-shrink-0 text-gray-200"
+            class="w-4 h-4 flex-shrink-0 text-slate-700"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true"
@@ -83,20 +83,20 @@
               clip-rule="evenodd"
             />
           </svg>
-          <span id="github-stars-desktop">-</span>
+          <span id="github-stars-desktop">GitHub</span>
         </a>
       </div>
 
       <!-- Mobile Hamburger Button -->
       <div class="lg:hidden flex items-center gap-4">
         <a
-          href="https://github.com/alam00000/bentopdf/"
+          href="https://github.com/19556523308ding-ship-it/bentopdf"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-flex items-center gap-1.5 text-sm font-medium bg-gray-800 text-gray-200 border border-gray-600 pl-2.5 pr-3 py-1 rounded-full transition-colors duration-200 shadow-sm hover:shadow-md hover:bg-gray-700"
+          class="inline-flex items-center gap-1.5 text-sm font-medium bg-slate-100 text-slate-700 border border-slate-300 pl-2.5 pr-3 py-1 rounded-full transition-all duration-200 shadow-sm hover:shadow-md hover:bg-slate-200"
         >
           <svg
-            class="w-4 h-4 flex-shrink-0 text-gray-200"
+            class="w-4 h-4 flex-shrink-0 text-slate-700"
             fill="currentColor"
             viewBox="0 0 24 24"
             aria-hidden="true"
@@ -107,12 +107,12 @@
               clip-rule="evenodd"
             />
           </svg>
-          <span id="github-stars-mobile">-</span>
+          <span id="github-stars-mobile">GitHub</span>
         </a>
         <button
           id="mobile-menu-button"
           type="button"
-          class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 transition-colors"
+          class="inline-flex items-center justify-center p-2 rounded-md text-slate-600 hover:text-slate-900 hover:bg-slate-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500 transition-colors"
           aria-controls="mobile-menu"
           aria-expanded="false"
         >
@@ -161,38 +161,39 @@
   <!-- Mobile Menu Dropdown -->
   <div
     id="mobile-menu"
-    class="hidden lg:hidden bg-gray-900 border-t border-white/10"
+    class="hidden lg:hidden bg-white border-t border-slate-200 shadow-lg"
   >
-    <div class="px-2 pt-2 pb-3 space-y-1 text-center">
-      <a href="/" class="mobile-nav-link" data-i18n="nav.home">Home</a>
-      <a href="/about" class="mobile-nav-link" data-i18n="nav.about">About</a>
-      <a href="/contact" class="mobile-nav-link" data-i18n="nav.contact"
+    <div class="px-4 pt-3 pb-4 space-y-2 text-left">
+      <a href="/" class="mobile-nav-link block py-2 text-slate-700 font-medium hover:text-teal-600" data-i18n="nav.home">Home</a>
+      <a href="https://jinzhai.icu" class="mobile-nav-link block py-2 text-teal-600 font-semibold hover:text-teal-700" target="_blank" rel="noopener noreferrer">Bank Converter</a>
+      <a href="/about" class="mobile-nav-link block py-2 text-slate-700 font-medium hover:text-teal-600" data-i18n="nav.about">About</a>
+      <a href="/contact" class="mobile-nav-link block py-2 text-slate-700 font-medium hover:text-teal-600" data-i18n="nav.contact"
         >Contact</a
       >
-      <a href="/licensing" class="mobile-nav-link" data-i18n="nav.licensing"
+      <a href="/licensing" class="mobile-nav-link block py-2 text-slate-700 font-medium hover:text-teal-600" data-i18n="nav.licensing"
         >Licensing</a
       >
       <button
         id="mobile-products-button"
         type="button"
-        class="mobile-nav-link mobile-products-trigger"
+        class="mobile-nav-link mobile-products-trigger w-full flex justify-between items-center py-2 text-slate-700 font-medium hover:text-teal-600"
         aria-expanded="false"
         aria-controls="mobile-products-menu"
       >
         <span>Products</span>
         <i data-lucide="chevron-down" class="mobile-products-chevron"></i>
       </button>
-      <div id="mobile-products-menu" class="mobile-products-menu" hidden>
-        <a href="/kura" class="mobile-nav-link">Kura</a>
-        <a href="/hyper-compress" class="mobile-nav-link">Hyper Compress</a>
+      <div id="mobile-products-menu" class="mobile-products-menu pl-4 space-y-1" hidden>
+        <a href="/kura" class="mobile-nav-link block py-1.5 text-sm text-slate-600 hover:text-teal-600">Kura</a>
+        <a href="/hyper-compress" class="mobile-nav-link block py-1.5 text-sm text-slate-600 hover:text-teal-600">Hyper Compress</a>
       </div>
       <a
         href="https://pdf.jinzhai.icu/docs/"
-        class="mobile-nav-link"
+        class="mobile-nav-link block py-2 text-slate-700 font-medium hover:text-teal-600"
         data-i18n="nav.docs"
         >Docs</a
       >
-      <a href="/blog" class="mobile-nav-link">Blog</a>
+      <a href="/blog" class="mobile-nav-link block py-2 text-slate-700 font-medium hover:text-teal-600">Blog</a>
     </div>
   </div>
 </nav>
