@@ -1,6 +1,6 @@
 # Deploy to Hostinger
 
-[Hostinger](https://hostinger.com) is a popular shared hosting provider. This guide covers deploying BentoPDF to Hostinger's shared hosting.
+[Hostinger](https://hostinger.com) is a popular shared hosting provider. This guide covers deploying BankPDF to Hostinger's shared hosting.
 
 ## Prerequisites
 
@@ -10,8 +10,8 @@
 ## Step 1: Build the Project
 
 ```bash
-git clone https://github.com/alam00000/bentopdf.git
-cd bentopdf
+git clone https://github.com/alam00000/bankpdf.git
+cd bankpdf
 npm install
 npm run build
 ```
@@ -142,7 +142,7 @@ AddType image/webp .webp
 # 5. REDIRECTS & ROUTING
 # ============================================
 # Canonical WWW (update domain as needed)
-RewriteCond %{HTTP_HOST} ^bentopdf\.com [NC]
+RewriteCond %{HTTP_HOST} ^bankpdf\.com [NC]
 RewriteRule ^(.*)$ https://pdf.jinzhai.icu/$1 [L,R=301]
 
 # Force HTTPS
@@ -249,7 +249,7 @@ If headers aren't being applied, contact Hostinger support to enable `mod_header
 
 ### 404 Errors on Page Refresh
 
-Make sure the `.html` extension rule and language routes are correctly configured. BentoPDF uses static HTML files, not SPA routing:
+Make sure the `.html` extension rule and language routes are correctly configured. BankPDF uses static HTML files, not SPA routing:
 
 ```apache
 # Language routes serve actual files from language directories

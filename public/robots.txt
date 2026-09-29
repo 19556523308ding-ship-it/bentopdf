@@ -1,4 +1,4 @@
-# BentoPDF Robots.txt
+# BankPDF Robots.txt
 # https://pdf.jinzhai.icu
 
 # Allow all crawlers

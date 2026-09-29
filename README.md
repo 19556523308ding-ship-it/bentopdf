@@ -1,17 +1,17 @@
 <p align="center"><img src="public/images/favicon-no-bg.svg" width="80"></p>
-<h1 align="center">BentoPDF</h1>
+<h1 align="center">BankPDF</h1>
 <p align="center">
   <a href="https://www.digitalocean.com/?refcode=d93c189ef6d0&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge">
     <img src="https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%203.svg" alt="DigitalOcean Referral Badge">
   </a>
 </p>
 
-**BentoPDF** is a powerful, privacy-first, client-side PDF toolkit that is self-hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
+**BankPDF** is a powerful, privacy-first, client-side PDF toolkit that is self-hostable and allows you to manipulate, edit, merge, and process PDF files directly in your browser. No server-side processing is required, ensuring your files remain secure and private.
 
-[![Docker Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falam00000%2Fbentopdf%2Fbadges%2Fdocker-downloads.json&cacheSeconds=3600)](https://github.com/alam00000/bentopdf/pkgs/container/bentopdf-simple) [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?logo=kofi&style=flat-square)](https://ko-fi.com/alio01) ![GitHub Stars](https://img.shields.io/github/stars/alam00000/bentopdf?style=social)
+[![Docker Downloads](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Falam00000%2Fbankpdf%2Fbadges%2Fdocker-downloads.json&cacheSeconds=3600)](https://github.com/alam00000/bankpdf/pkgs/container/bankpdf-simple) [![Ko-fi](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?logo=kofi&style=flat-square)](https://ko-fi.com/alio01) ![GitHub Stars](https://img.shields.io/github/stars/alam00000/bankpdf?style=social)
 [![Sponsor me on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-ff69b4)](https://github.com/sponsors/alam00000)
 
-![BentoPDF Tools](public/images/bentopdf-tools.png)
+![BankPDF Tools](public/images/bankpdf-tools.png)
 
 ---
 
@@ -22,7 +22,7 @@
 - [Licensing](#-licensing)
 - [Stargazers over time](#-stargazers-over-time)
 - [Thank You to Our Sponsors](#-thank-you-to-our-sponsors)
-- [Why BentoPDF?](#-why-bentopdf)
+- [Why BankPDF?](#-why-bankpdf)
 - [Features / Tools Supported](#️-features--tools-supported)
   - [Organize & Manage PDFs](#organize--manage-pdfs)
   - [Edit & Modify PDFs](#edit--modify-pdfs)
@@ -80,7 +80,7 @@ Visit our [Documentation](https://pdf.jinzhai.icu/docs/) for:
 
 ## 📜 Licensing
 
-BentoPDF is **dual-licensed** to fit your needs:
+BankPDF is **dual-licensed** to fit your needs:
 
 | License        | Best For                                     | Price              |
 | -------------- | -------------------------------------------- | ------------------ |
@@ -99,7 +99,7 @@ BentoPDF is **dual-licensed** to fit your needs:
 
 ### AGPL Components (Pre-configured via CDN)
 
-BentoPDF does **not** bundle AGPL-licensed processing libraries in its source code, but **pre-configures CDN URLs** so all features work out of the box with zero setup:
+BankPDF does **not** bundle AGPL-licensed processing libraries in its source code, but **pre-configures CDN URLs** so all features work out of the box with zero setup:
 
 | Component              | License  | Features Enabled                                                                                    |
 | ---------------------- | -------- | --------------------------------------------------------------------------------------------------- |
@@ -114,13 +114,13 @@ BentoPDF does **not** bundle AGPL-licensed processing libraries in its source co
 
 ## ⭐ Stargazers over time
 
-[![Star History Chart](https://star-history.dera.page/svg?repos=alam00000/bentopdf&type=Date)](https://github.com/alam00000/bentopdf/stargazers)
+[![Star History Chart](https://star-history.dera.page/svg?repos=alam00000/bankpdf&type=Date)](https://github.com/alam00000/bankpdf/stargazers)
 
 ---
 
 ## 💖 Thank You to Our Sponsors
 
-We're incredibly grateful to all our sponsors and supporters who help keep BentoPDF free and open source!
+We're incredibly grateful to all our sponsors and supporters who help keep BankPDF free and open source!
 
 [![Sponsor me on GitHub](https://img.shields.io/badge/Become%20a%20Sponsor-%E2%9D%A4-ff69b4?style=for-the-badge)](https://github.com/sponsors/alam00000)
 [![Buy me a Coffee](https://img.shields.io/badge/Buy%20me%20a%20Coffee-yellow?style=for-the-badge&logo=kofi)](https://ko-fi.com/alio01)
@@ -130,18 +130,18 @@ We're incredibly grateful to all our sponsors and supporters who help keep Bento
 
 ---
 
-## ✨ Why BentoPDF?
+## ✨ Why BankPDF?
 
 - **Privacy First**: All processing happens in your browser. Your files are never uploaded to a server, guaranteeing 100% privacy.
 - **No Limits**: Manipulate as many files as you want, as often as you want. There are no restrictions or upload limits.
-- **High Performance**: Built with modern web technologies, BentoPDF is fast and efficient, handling even large PDF files with ease.
-- **Completely Free**: BentoPDF is a free and open-source tool for everyone.
+- **High Performance**: Built with modern web technologies, BankPDF is fast and efficient, handling even large PDF files with ease.
+- **Completely Free**: BankPDF is a free and open-source tool for everyone.
 
 ---
 
 ## 🛠️ Features / Tools Supported
 
-BentoPDF offers a comprehensive suite of tools to handle all your PDF needs.
+BankPDF offers a comprehensive suite of tools to handle all your PDF needs.
 
 ### Organize & Manage PDFs
 
@@ -288,7 +288,7 @@ BentoPDF offers a comprehensive suite of tools to handle all your PDF needs.
 
 ## 🌍 Translations
 
-BentoPDF is available in multiple languages:
+BankPDF is available in multiple languages:
 
 | Language            | Status                                                                                                                    |
 | ------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -305,13 +305,13 @@ BentoPDF is available in multiple languages:
 | Korean              | [![Korean](https://img.shields.io/badge/Complete-green?style=flat-square)](public/locales/ko/common.json)                 |
 | Russian             | [![Russian](https://img.shields.io/badge/Complete-green?style=flat-square)](public/locales/ru/common.json)                |
 
-Want to help translate BentoPDF into your language? Check out our [Translation Guide](TRANSLATION.md)!
+Want to help translate BankPDF into your language? Check out our [Translation Guide](TRANSLATION.md)!
 
 ---
 
 ## 🚀 Getting Started
 
-You can run BentoPDF locally for development or personal use.
+You can run BankPDF locally for development or personal use.
 
 ### Prerequisites
 
@@ -321,19 +321,19 @@ You can run BentoPDF locally for development or personal use.
 
 ### 🚀 Quick Start
 
-Run BentoPDF instantly from GitHub Container Registry (Recommended):
+Run BankPDF instantly from GitHub Container Registry (Recommended):
 
 ```bash
-docker run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest
+docker run -p 3000:8080 ghcr.io/alam00000/bankpdf-simple:latest
 ```
 
 Open your browser at: http://localhost:3000
 
 > [!TIP]
-> BentoPDF ships in two builds:
+> BankPDF ships in two builds:
 >
-> - **Self-Hosted build** — `ghcr.io/alam00000/bentopdf-simple:latest`. Every PDF tool the public site has, **without** the BentoPDF marketing (no hero, FAQ, testimonials, footer). Use this for internal/team/organization deployments. It is **not** a feature-reduced lite version.
-> - **Commercial build** — `ghcr.io/alam00000/bentopdf:latest`. The full marketing site, used by bentopdf.com itself and by commercial license holders running public-facing deployments. Includes hero, FAQ, testimonials, and footer.
+> - **Self-Hosted build** — `ghcr.io/alam00000/bankpdf-simple:latest`. Every PDF tool the public site has, **without** the BankPDF marketing (no hero, FAQ, testimonials, footer). Use this for internal/team/organization deployments. It is **not** a feature-reduced lite version.
+> - **Commercial build** — `ghcr.io/alam00000/bankpdf:latest`. The full marketing site, used by bankpdf.com itself and by commercial license holders running public-facing deployments. Includes hero, FAQ, testimonials, and footer.
 >
 > If in doubt: pull the Self-Hosted build.
 
@@ -343,19 +343,19 @@ Open your browser at: http://localhost:3000
 **Docker Hub:**
 
 ```bash
-docker run -p 3000:8080 bentopdfteam/bentopdf-simple:latest
+docker run -p 3000:8080 bankpdfteam/bankpdf-simple:latest
 ```
 
 **Podman (GHCR):**
 
 ```bash
-podman run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest
+podman run -p 3000:8080 ghcr.io/alam00000/bankpdf-simple:latest
 ```
 
 **Podman (Docker Hub):**
 
 ```bash
-podman run -p 3000:8080 docker.io/bentopdfteam/bentopdf-simple:latest
+podman run -p 3000:8080 docker.io/bankpdfteam/bankpdf-simple:latest
 ```
 
 > [!NOTE]
@@ -365,20 +365,20 @@ podman run -p 3000:8080 docker.io/bentopdfteam/bentopdf-simple:latest
 
 ### Static Hosting using Netlify, Vercel, and GitHub Pages
 
-It is very straightforward to host your own instance of BentoPDF using a static web page hosting service. Plus, services such as Netlify, Vercel, and GitHub Pages all offer a free tier for getting started. See [Static Hosting](https://github.com/alam00000/bentopdf/blob/main/STATIC-HOSTING.md) for details.
+It is very straightforward to host your own instance of BankPDF using a static web page hosting service. Plus, services such as Netlify, Vercel, and GitHub Pages all offer a free tier for getting started. See [Static Hosting](https://github.com/alam00000/bankpdf/blob/main/STATIC-HOSTING.md) for details.
 
 ### 🏠 Self-Hosting Locally
 
-Since BentoPDF is fully client-side, all processing happens in the user's browser and no server-side processing is required. This means you can host BentoPDF as simple static files on any web server or hosting platform.
+Since BankPDF is fully client-side, all processing happens in the user's browser and no server-side processing is required. This means you can host BankPDF as simple static files on any web server or hosting platform.
 
 > [!IMPORTANT]
 > Office file conversion uses LibreOffice WASM, which requires `SharedArrayBuffer`. That means the app must be both cross-origin isolated and served from a secure context. `http://localhost` works for local testing, but `http://192.168.x.x` or other LAN IPs usually require HTTPS even if the server already sends the correct COOP/COEP headers.
 
 **Download from Releases (Recommended):**
 
-The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/alam00000/bentopdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
+The easiest way to self-host is to download the pre-built distribution file from our [GitHub releases](https://github.com/alam00000/bankpdf/releases). Each release includes a `dist-{version}.zip` file that contains all necessary files for self-hosting.
 
-1. Go to [BentoPDF Releases](https://github.com/alam00000/bentopdf/releases)
+1. Go to [BankPDF Releases](https://github.com/alam00000/bankpdf/releases)
 2. Download the latest `dist-{version}.zip` file
 3. Extract the zip file
 4. Serve the extracted folder with your preferred web server
@@ -404,8 +404,8 @@ If you prefer to build from source:
 
 ```bash
 # Clone the repository
-git clone https://github.com/alam00000/bentopdf.git
-cd bentopdf
+git clone https://github.com/alam00000/bankpdf.git
+cd bankpdf
 
 # Install dependencies
 npm install
@@ -425,24 +425,24 @@ npm run preview
 
 **Compression Modes:**
 
-BentoPDF supports different compression modes for optimized builds:
+BankPDF supports different compression modes for optimized builds:
 
 ```bash
 # Gzip only (smallest Docker image size)
 npm run build:gzip
-docker build --build-arg COMPRESSION_MODE=g -t bentopdf:gzip .
+docker build --build-arg COMPRESSION_MODE=g -t bankpdf:gzip .
 
 # Brotli only (best compression ratio)
 npm run build:brotli
-docker build --build-arg COMPRESSION_MODE=b -t bentopdf:brotli .
+docker build --build-arg COMPRESSION_MODE=b -t bankpdf:brotli .
 
 # No compression (fastest build time)
 npm run build:original
-docker build --build-arg COMPRESSION_MODE=o -t bentopdf:original .
+docker build --build-arg COMPRESSION_MODE=o -t bankpdf:original .
 
 # All formats (default, maximum browser compatibility)
 npm run build:all
-docker build --build-arg COMPRESSION_MODE=all -t bentopdf:all .
+docker build --build-arg COMPRESSION_MODE=all -t bankpdf:all .
 ```
 
 | Mode  | Files Kept  | Use Case                          |
@@ -454,7 +454,7 @@ docker build --build-arg COMPRESSION_MODE=all -t bentopdf:all .
 
 **CDN Optimization:**
 
-BentoPDF can use jsDelivr CDN to serve large WASM files (LibreOffice, Ghostscript, PyMuPDF) for improved performance and reduced bandwidth costs:
+BankPDF can use jsDelivr CDN to serve large WASM files (LibreOffice, Ghostscript, PyMuPDF) for improved performance and reduced bandwidth costs:
 
 ```bash
 # Production build with CDN (Recommended)
@@ -477,8 +477,8 @@ Advanced PDF features (PyMuPDF, Ghostscript, CoherentPDF) are pre-configured to 
 The default URLs are set in `.env.production`:
 
 ```bash
-VITE_WASM_PYMUPDF_URL=https://cdn.jsdelivr.net/npm/@bentopdf/pymupdf-wasm@0.11.16/
-VITE_WASM_GS_URL=https://cdn.jsdelivr.net/npm/@bentopdf/gs-wasm@0.1.1/assets/
+VITE_WASM_PYMUPDF_URL=https://cdn.jsdelivr.net/npm/@bankpdf/pymupdf-wasm@0.11.16/
+VITE_WASM_GS_URL=https://cdn.jsdelivr.net/npm/@bankpdf/gs-wasm@0.1.1/assets/
 VITE_WASM_CPDF_URL=https://cdn.jsdelivr.net/npm/coherentpdf@2.5.5/dist/
 VITE_TESSERACT_WORKER_URL=
 VITE_TESSERACT_CORE_URL=
@@ -499,7 +499,7 @@ docker build \
   --build-arg VITE_TESSERACT_LANG_URL=https://your-server.com/ocr/lang-data \
   --build-arg VITE_TESSERACT_AVAILABLE_LANGUAGES=eng,deu \
   --build-arg VITE_OCR_FONT_BASE_URL=https://your-server.com/ocr/fonts \
-  -t bentopdf .
+  -t bankpdf .
 ```
 
 To disable a module (require manual user config via Advanced Settings), set its variable to an empty string.
@@ -520,8 +520,8 @@ For networks with no internet access (government, healthcare, financial, etc.), 
 The included `prepare-airgap.sh` script automates the entire process — downloading WASM packages, building the Docker image, exporting everything into a self-contained bundle with a setup script.
 
 ```bash
-git clone https://github.com/alam00000/bentopdf.git
-cd bentopdf
+git clone https://github.com/alam00000/bankpdf.git
+cd bankpdf
 
 # Show supported OCR language codes (for --ocr-languages)
 bash scripts/prepare-airgap.sh --list-ocr-languages
@@ -539,8 +539,8 @@ bash scripts/prepare-airgap.sh --wasm-base-url https://internal.example.com/wasm
 This produces a bundle directory containing:
 
 ```
-bentopdf-airgap-bundle/
-  bentopdf.tar              # Docker image
+bankpdf-airgap-bundle/
+  bankpdf.tar              # Docker image
   *.tgz                     # WASM packages (PyMuPDF, Ghostscript, CoherentPDF, Tesseract)
   tesseract-langdata/       # OCR traineddata files
   ocr-fonts/                # OCR text-layer font files
@@ -551,7 +551,7 @@ bentopdf-airgap-bundle/
 **Transfer the bundle** into the air-gapped network via USB, internal artifact repo, or approved method. Then run the included setup script:
 
 ```bash
-cd bentopdf-airgap-bundle
+cd bankpdf-airgap-bundle
 bash setup.sh
 ```
 
@@ -563,8 +563,8 @@ The setup script loads the Docker image, extracts WASM files, and optionally sta
 | Flag                           | Description                                      | Default                           |
 | ------------------------------ | ------------------------------------------------ | --------------------------------- |
 | `--wasm-base-url <url>`        | Where WASMs will be hosted internally            | _(required, prompted if missing)_ |
-| `--image-name <name>`          | Docker image tag                                 | `bentopdf`                        |
-| `--output-dir <path>`          | Output bundle directory                          | `./bentopdf-airgap-bundle`        |
+| `--image-name <name>`          | Docker image tag                                 | `bankpdf`                        |
+| `--output-dir <path>`          | Output bundle directory                          | `./bankpdf-airgap-bundle`        |
 | `--simple-mode`                | Enable Simple Mode                               | off                               |
 | `--base-url <path>`            | Subdirectory base URL (e.g. `/pdf/`)             | `/`                               |
 | `--language <code>`            | Default UI language (e.g. `fr`, `de`)            | _(none)_                          |
@@ -583,7 +583,7 @@ The setup script loads the Docker image, extracts WASM files, and optionally sta
 The interactive prompt also accepts `list` to print the full supported Tesseract code list and `search <term>` to find matches such as `search german` or `search chi`.
 
 > [!IMPORTANT]
-> WASM files must be served from the **same origin** as the BentoPDF app. Web Workers use `importScripts()` which cannot load scripts cross-origin. For example, if BentoPDF runs at `https://internal.example.com`, the WASM base URL should also be `https://internal.example.com/wasm`.
+> WASM files must be served from the **same origin** as the BankPDF app. Web Workers use `importScripts()` which cannot load scripts cross-origin. For example, if BankPDF runs at `https://internal.example.com`, the WASM base URL should also be `https://internal.example.com/wasm`.
 
 #### Manual Steps
 
@@ -593,8 +593,8 @@ The interactive prompt also accepts `list` to print the full supported Tesseract
 **Step 1: Download the WASM and OCR packages** (on a machine with internet)
 
 ```bash
-npm pack @bentopdf/pymupdf-wasm@0.11.16
-npm pack @bentopdf/gs-wasm
+npm pack @bankpdf/pymupdf-wasm@0.11.16
+npm pack @bankpdf/gs-wasm
 npm pack coherentpdf
 npm pack tesseract.js@7.0.0
 npm pack tesseract.js-core@7.0.0
@@ -607,8 +607,8 @@ curl -fsSL https://raw.githack.com/googlefonts/noto-fonts/main/hinted/ttf/NotoSa
 **Step 2: Build the Docker image with internal URLs**
 
 ```bash
-git clone https://github.com/alam00000/bentopdf.git
-cd bentopdf
+git clone https://github.com/alam00000/bankpdf.git
+cd bankpdf
 
 docker build \
   --build-arg VITE_WASM_PYMUPDF_URL=https://internal-server.example.com/wasm/pymupdf/ \
@@ -618,22 +618,22 @@ docker build \
   --build-arg VITE_TESSERACT_CORE_URL=https://internal-server.example.com/wasm/ocr/core \
   --build-arg VITE_TESSERACT_LANG_URL=https://internal-server.example.com/wasm/ocr/lang-data \
   --build-arg VITE_OCR_FONT_BASE_URL=https://internal-server.example.com/wasm/ocr/fonts \
-  -t bentopdf .
+  -t bankpdf .
 ```
 
 **Step 3: Export the Docker image**
 
 ```bash
-docker save bentopdf -o bentopdf.tar
+docker save bankpdf -o bankpdf.tar
 ```
 
 **Step 4: Transfer into the air-gapped network**
 
 Copy these files via USB drive, internal artifact repository, or approved transfer method:
 
-- `bentopdf.tar` — the Docker image
-- `bentopdf-pymupdf-wasm-0.11.14.tgz` — PyMuPDF WASM package
-- `bentopdf-gs-wasm-*.tgz` — Ghostscript WASM package
+- `bankpdf.tar` — the Docker image
+- `bankpdf-pymupdf-wasm-0.11.14.tgz` — PyMuPDF WASM package
+- `bankpdf-gs-wasm-*.tgz` — Ghostscript WASM package
 - `coherentpdf-*.tgz` — CoherentPDF WASM package
 - `tesseract.js-7.0.0.tgz` — Tesseract worker package
 - `tesseract.js-core-7.0.0.tgz` — Tesseract core runtime package
@@ -644,12 +644,12 @@ Copy these files via USB drive, internal artifact repository, or approved transf
 
 ```bash
 # Load the Docker image
-docker load -i bentopdf.tar
+docker load -i bankpdf.tar
 
 # Extract the WASM packages
 mkdir -p ./wasm/pymupdf ./wasm/gs ./wasm/cpdf ./wasm/ocr/core ./wasm/ocr/lang-data ./wasm/ocr/fonts
-tar xzf bentopdf-pymupdf-wasm-0.11.14.tgz -C ./wasm/pymupdf --strip-components=1
-tar xzf bentopdf-gs-wasm-*.tgz -C ./wasm/gs --strip-components=1
+tar xzf bankpdf-pymupdf-wasm-0.11.14.tgz -C ./wasm/pymupdf --strip-components=1
+tar xzf bankpdf-gs-wasm-*.tgz -C ./wasm/gs --strip-components=1
 tar xzf coherentpdf-*.tgz -C ./wasm/cpdf --strip-components=1
 TEMP_TESS=$(mktemp -d)
 tar xzf tesseract.js-7.0.0.tgz -C "$TEMP_TESS"
@@ -659,8 +659,8 @@ tar xzf tesseract.js-core-7.0.0.tgz -C ./wasm/ocr/core --strip-components=1
 cp ./tesseract-langdata/*.traineddata.gz ./wasm/ocr/lang-data/
 cp ./ocr-fonts/* ./wasm/ocr/fonts/
 
-# Run BentoPDF
-docker run -d -p 3000:8080 --restart unless-stopped bentopdf
+# Run BankPDF
+docker run -d -p 3000:8080 --restart unless-stopped bankpdf
 ```
 
 Make sure the files are accessible at the URLs you configured in Step 2, including `.../ocr/worker.min.js`, `.../ocr/core`, `.../ocr/lang-data`, and `.../ocr/fonts`.
@@ -682,41 +682,41 @@ Make sure the files are accessible at the URLs you configured in Step 2, includi
 
 **Subdirectory Hosting:**
 
-BentoPDF can also be hosted from a subdirectory (e.g., `example.com/tools/bentopdf/`):
+BankPDF can also be hosted from a subdirectory (e.g., `example.com/tools/bankpdf/`):
 
 ```bash
 
 # Example:
-# 1. Build the app with the specific BASE_URL. BASE_URL must have a trailing and leading slash. The BASE_URL can be any URL of your choice. Here we are using /tools/bentopdf/ as an example.
+# 1. Build the app with the specific BASE_URL. BASE_URL must have a trailing and leading slash. The BASE_URL can be any URL of your choice. Here we are using /tools/bankpdf/ as an example.
 
-BASE_URL=/tools/bentopdf/ npm run build
+BASE_URL=/tools/bankpdf/ npm run build
 
 # 2. Create the nested directory structure inside serve-test (or any folder of your choice for local testing. In case of production, create the nested directory structure inside the root directory)
-mkdir -p serve-test/tools/bentopdf
+mkdir -p serve-test/tools/bankpdf
 
 # 3. Copy all files from the 'dist' folder into that nested directory
-cp -r dist/* serve-test/tools/bentopdf/
+cp -r dist/* serve-test/tools/bankpdf/
 
 # 4. Serve the 'serve-test' folder
 npx serve serve-test
 ```
 
-The website can be accessible at: `http://localhost:3000/tools/bentopdf/`
+The website can be accessible at: `http://localhost:3000/tools/bankpdf/`
 
 The `npm run package` command creates a `dist-{version}.zip` file that you can use for self-hosting.
 
 **Docker Subdirectory Deployment:**
 
-BentoPDF's Docker image also supports the `BASE_URL` build argument for subdirectory deployments:
+BankPDF's Docker image also supports the `BASE_URL` build argument for subdirectory deployments:
 
 ```bash
 # Build for subdirectory deployment
-docker build --build-arg BASE_URL=/bentopdf/ -t bentopdf .
+docker build --build-arg BASE_URL=/bankpdf/ -t bankpdf .
 
 # Run the container
-docker run -p 3000:8080 bentopdf
+docker run -p 3000:8080 bankpdf
 
-# The app will be accessible at http://localhost:3000/bentopdf/
+# The app will be accessible at http://localhost:3000/bankpdf/
 ```
 
 **Default Language:**
@@ -724,7 +724,7 @@ docker run -p 3000:8080 bentopdf
 Set the default UI language at build time. Users can still switch languages — this only changes the initial default. Supported: `en`, `ar`, `be`, `fr`, `de`, `es`, `zh`, `zh-TW`, `vi`, `tr`, `id`, `it`, `pt`, `nl`, `da`.
 
 ```bash
-docker build --build-arg VITE_DEFAULT_LANGUAGE=fr -t bentopdf .
+docker build --build-arg VITE_DEFAULT_LANGUAGE=fr -t bankpdf .
 ```
 
 **Combined with Simple Mode:**
@@ -734,14 +734,14 @@ docker build --build-arg VITE_DEFAULT_LANGUAGE=fr -t bentopdf .
 docker build \
   --build-arg BASE_URL=/tools/pdf/ \
   --build-arg SIMPLE_MODE=true \
-  -t bentopdf-simple .
+  -t bankpdf-simple .
 
-docker run -p 3000:8080 bentopdf-simple
+docker run -p 3000:8080 bankpdf-simple
 ```
 
 > [!IMPORTANT]
 >
-> - Always include trailing slashes in `BASE_URL` (e.g., `/bentopdf/` not `/bentopdf`)
+> - Always include trailing slashes in `BASE_URL` (e.g., `/bankpdf/` not `/bankpdf`)
 > - The default value is `/` for root deployment
 
 ### 🚀 Run with Docker Compose / Podman Compose (Recommended)
@@ -752,11 +752,11 @@ For a more robust setup with auto-restart capabilities:
 
 ```yaml
 services:
-  bentopdf:
-    image: ghcr.io/alam00000/bentopdf-simple:latest # Self-Hosted build (recommended)
-    # image: bentopdfteam/bentopdf-simple:latest     # Self-Hosted build (Docker Hub)
-    # image: ghcr.io/alam00000/bentopdf:latest       # Commercial build (bentopdf.com / commercial license holders)
-    container_name: bentopdf
+  bankpdf:
+    image: ghcr.io/alam00000/bankpdf-simple:latest # Self-Hosted build (recommended)
+    # image: bankpdfteam/bankpdf-simple:latest     # Self-Hosted build (Docker Hub)
+    # image: ghcr.io/alam00000/bankpdf:latest       # Commercial build (bankpdf.com / commercial license holders)
+    container_name: bankpdf
     ports:
       - '3000:8080'
     restart: unless-stopped
@@ -776,18 +776,18 @@ The application will be available at `http://localhost:3000`.
 
 ### 🐧 Podman Quadlet (Systemd Integration)
 
-For Linux production deployments, you can run BentoPDF as a systemd service using [Podman Quadlet](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html).
+For Linux production deployments, you can run BankPDF as a systemd service using [Podman Quadlet](https://docs.podman.io/en/latest/markdown/podman-systemd.unit.5.html).
 
-Create `~/.config/containers/systemd/bentopdf.container`:
+Create `~/.config/containers/systemd/bankpdf.container`:
 
 ```ini
 [Unit]
-Description=BentoPDF - Privacy-first PDF toolkit
+Description=BankPDF - Privacy-first PDF toolkit
 After=network-online.target
 
 [Container]
-Image=ghcr.io/alam00000/bentopdf-simple:latest
-ContainerName=bentopdf
+Image=ghcr.io/alam00000/bankpdf-simple:latest
+ContainerName=bankpdf
 PublishPort=3000:8080
 AutoUpdate=registry
 
@@ -802,14 +802,14 @@ Then enable and start:
 
 ```bash
 systemctl --user daemon-reload
-systemctl --user enable --now bentopdf
+systemctl --user enable --now bankpdf
 ```
 
 For detailed Quadlet configuration, see [Self-Hosting Docker Guide](https://pdf.jinzhai.icu/docs/self-hosting/docker).
 
 ### 🏢 Self-Hosted build (Simple Mode)
 
-The Self-Hosted build (the `bentopdf-simple` image, also called Simple Mode) is **functionally identical** to the Commercial build. Every PDF tool is present and behaves the same. It just hides the marketing that only makes sense on bentopdf.com itself or on a commercial public-facing deployment. **It is not a feature-reduced or "lite" version.**
+The Self-Hosted build (the `bankpdf-simple` image, also called Simple Mode) is **functionally identical** to the Commercial build. Every PDF tool is present and behaves the same. It just hides the marketing that only makes sense on bankpdf.com itself or on a commercial public-facing deployment. **It is not a feature-reduced or "lite" version.**
 
 **What the Self-Hosted build hides** (cosmetic only, no PDF features are removed):
 
@@ -821,25 +821,25 @@ The Self-Hosted build (the `bentopdf-simple` image, also called Simple Mode) is 
 - All PDF tools (merge, split, edit, sign, OCR, Office conversion, every other tool)
 - Custom branding support, all build-time and runtime config
 
-The Commercial build (`ghcr.io/alam00000/bentopdf:latest`) is what powers bentopdf.com itself and is used by commercial license holders running public-facing deployments. It adds the hero, FAQ, testimonials, and footer that wouldn't make sense on an internal tool.
+The Commercial build (`ghcr.io/alam00000/bankpdf:latest`) is what powers bankpdf.com itself and is used by commercial license holders running public-facing deployments. It adds the hero, FAQ, testimonials, and footer that wouldn't make sense on an internal tool.
 
-If you're self-hosting BentoPDF for your team, organization, or as an internal tool, pull `ghcr.io/alam00000/bentopdf-simple:latest`. For more details, see [SIMPLE_MODE.md](SIMPLE_MODE.md).
+If you're self-hosting BankPDF for your team, organization, or as an internal tool, pull `ghcr.io/alam00000/bankpdf-simple:latest`. For more details, see [SIMPLE_MODE.md](SIMPLE_MODE.md).
 
 ### 🏬 Commercial Build
 
-The Commercial build (the `bentopdf` image. Note: no `-simple` suffix) is what powers bentopdf.com itself. It includes the full marketing site (hero, features, FAQ, testimonials, footer) on top of every PDF tool. Use this build when you're running BentoPDF as a **public-facing PDF service under your own brand**. For example:
+The Commercial build (the `bankpdf` image. Note: no `-simple` suffix) is what powers bankpdf.com itself. It includes the full marketing site (hero, features, FAQ, testimonials, footer) on top of every PDF tool. Use this build when you're running BankPDF as a **public-facing PDF service under your own brand**. For example:
 
-- You're deploying BentoPDF as a hosted SaaS for end-users (with your own domain and branding)
+- You're deploying BankPDF as a hosted SaaS for end-users (with your own domain and branding)
 - You want the landing-page experience (marketing sections + tools), not just the tool surface
-- You're a commercial license holder embedding BentoPDF into a commercial product or workflow
+- You're a commercial license holder embedding BankPDF into a commercial product or workflow
 
-**Run it as-is** (carries BentoPDF branding by default. Useful to evaluate what the build looks like):
+**Run it as-is** (carries BankPDF branding by default. Useful to evaluate what the build looks like):
 
 ```bash
-docker run -p 3000:8080 ghcr.io/alam00000/bentopdf:latest
+docker run -p 3000:8080 ghcr.io/alam00000/bankpdf:latest
 ```
 
-**Build with your own brand** (the typical commercial path — replace the BentoPDF logo, name, and footer):
+**Build with your own brand** (the typical commercial path — replace the BankPDF logo, name, and footer):
 
 ```bash
 docker build \
@@ -856,7 +856,7 @@ Or set the same variables when building from source — see [Custom Branding](#-
 **Combine with other build-time flags** (`BASE_URL`, `VITE_DEFAULT_LANGUAGE`, `DISABLE_TOOLS`, `VITE_USE_CDN`, WASM URL overrides for air-gapped use, etc.) — every option that works on the Self-Hosted build also works here.
 
 > [!IMPORTANT]
-> **Licensing**: Running the Commercial build is allowed under both license options BentoPDF ships under:
+> **Licensing**: Running the Commercial build is allowed under both license options BankPDF ships under:
 >
 > - **AGPL-3.0** (free): allowed if your deployment publishes its full source code under AGPL — this includes any branding modifications, custom configuration, and any code you build on top of it.
 > - **Commercial license** ($79 lifetime): required for closed-source / proprietary deployments — e.g., a private SaaS where you don't open-source your branding fork or surrounding business logic.
@@ -865,13 +865,13 @@ Or set the same variables when building from source — see [Custom Branding](#-
 
 ### 🎨 Custom Branding
 
-Replace the default BentoPDF logo, name, and footer text with your own. Branding is configured via environment variables at **build time** and works across all deployment methods (Docker, static hosting, air-gapped VMs).
+Replace the default BankPDF logo, name, and footer text with your own. Branding is configured via environment variables at **build time** and works across all deployment methods (Docker, static hosting, air-gapped VMs).
 
 | Variable           | Description                             | Default                                 |
 | ------------------ | --------------------------------------- | --------------------------------------- |
-| `VITE_BRAND_NAME`  | Brand name shown in header and footer   | `BentoPDF`                              |
+| `VITE_BRAND_NAME`  | Brand name shown in header and footer   | `BankPDF`                              |
 | `VITE_BRAND_LOGO`  | Path to logo file relative to `public/` | `images/favicon-no-bg.svg`              |
-| `VITE_FOOTER_TEXT` | Custom footer/copyright text            | `© 2026 BentoPDF. All rights reserved.` |
+| `VITE_FOOTER_TEXT` | Custom footer/copyright text            | `© 2026 BankPDF. All rights reserved.` |
 
 **Docker:**
 
@@ -908,7 +908,7 @@ Tool IDs are the page URL without `.html` — open any tool and look at the URL 
 **Build-time** (baked into the bundle):
 
 ```bash
-docker build --build-arg DISABLE_TOOLS="edit-pdf,sign-pdf,encrypt-pdf" -t bentopdf .
+docker build --build-arg DISABLE_TOOLS="edit-pdf,sign-pdf,encrypt-pdf" -t bankpdf .
 ```
 
 **Runtime** (no rebuild — mount a `config.json`):
@@ -922,7 +922,7 @@ docker build --build-arg DISABLE_TOOLS="edit-pdf,sign-pdf,encrypt-pdf" -t bentop
 ```bash
 docker run -d -p 3000:8080 \
   -v ./config.json:/usr/share/nginx/html/config.json:ro \
-  ghcr.io/alam00000/bentopdf-simple:latest
+  ghcr.io/alam00000/bankpdf-simple:latest
 ```
 
 Both methods can be combined — the lists are merged. For the full list of tool IDs, see the [self-hosting docs](https://pdf.jinzhai.icu/docs/self-hosting/docker#disabling-specific-tools).
@@ -941,12 +941,12 @@ For the full list of editor categories, see the [self-hosting docs](https://pdf.
 
 The navbar shows a live GitHub star count, fetched from `api.github.com` on page load. The only external request that isn't serving a PDF feature. Self-hosters who want zero non-essential network calls can disable it at build time. This removes the fetch code from the bundle entirely and drops `api.github.com` from the Content-Security-Policy.
 
-Simple Mode builds (`bentopdf-simple`) always skip the star counter — this flag is only needed on the Commercial build or custom full builds.
+Simple Mode builds (`bankpdf-simple`) always skip the star counter — this flag is only needed on the Commercial build or custom full builds.
 
 **Docker:**
 
 ```bash
-docker build --build-arg DISABLE_GITHUB_STARS=true -t bentopdf .
+docker build --build-arg DISABLE_GITHUB_STARS=true -t bankpdf .
 ```
 
 **Building from source:**
@@ -957,7 +957,7 @@ DISABLE_GITHUB_STARS=true npm run build
 
 ### 🔒 Security Features
 
-BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
+BankPDF runs as a non-root user using nginx-unprivileged for enhanced security:
 
 - **Non-Root Execution**: Container runs with minimal privileges using nginx-unprivileged
 - **Port 8080**: Uses high port number to avoid requiring root privileges (configurable via `PORT` env var)
@@ -966,16 +966,16 @@ BentoPDF runs as a non-root user using nginx-unprivileged for enhanced security:
 #### Basic Usage
 
 ```bash
-docker build -t bentopdf .
-docker run -p 8080:8080 bentopdf
+docker build -t bankpdf .
+docker run -p 8080:8080 bankpdf
 ```
 
 #### Custom Port
 
-By default, BentoPDF listens on port `8080` inside the container. To change this, set the `PORT` environment variable:
+By default, BankPDF listens on port `8080` inside the container. To change this, set the `PORT` environment variable:
 
 ```bash
-docker run -p 3000:9090 -e PORT=9090 ghcr.io/alam00000/bentopdf-simple:latest
+docker run -p 3000:9090 -e PORT=9090 ghcr.io/alam00000/bankpdf-simple:latest
 ```
 
 | Variable | Description                    | Default |
@@ -988,10 +988,10 @@ For environments that require running as a specific non-root user (e.g., NAS dev
 
 ```bash
 # Build the non-root image
-docker build -f Dockerfile.nonroot -t bentopdf-nonroot .
+docker build -f Dockerfile.nonroot -t bankpdf-nonroot .
 
 # Run with custom UID/GID
-docker run -d -p 3000:8080 -e PUID=1000 -e PGID=1000 bentopdf-nonroot
+docker run -d -p 3000:8080 -e PUID=1000 -e PGID=1000 bankpdf-nonroot
 ```
 
 | Variable | Description        | Default |
@@ -1038,7 +1038,7 @@ The **Digital Signature** tool uses a signing library that may need to fetch cer
    ```
 
    > [!IMPORTANT]
-   > Without this step, the proxy will reject all requests from your site with a 403 error. The default only allows `bentopdf.com`.
+   > Without this step, the proxy will reject all requests from your site with a 403 error. The default only allows `bankpdf.com`.
 
 4. **Deploy the worker:**
 
@@ -1046,7 +1046,7 @@ The **Digital Signature** tool uses a signing library that may need to fetch cer
    npx wrangler deploy
    ```
 
-5. **Note your worker URL** (e.g., `https://bentopdf-cors-proxy.your-subdomain.workers.dev`)
+5. **Note your worker URL** (e.g., `https://bankpdf-cors-proxy.your-subdomain.workers.dev`)
 
 6. **Set the environment variable when building:**
    ```bash
@@ -1057,7 +1057,7 @@ The **Digital Signature** tool uses a signing library that may need to fetch cer
    export VITE_CORS_PROXY_URL="https://your-worker-url.workers.dev"
    DOCKER_BUILDKIT=1 docker build \
     --secret id=VITE_CORS_PROXY_URL,env=VITE_CORS_PROXY_URL \
-    -t your-bentopdf .
+    -t your-bankpdf .
    ```
 
 #### Production Security Features
@@ -1100,7 +1100,7 @@ npx wrangler deploy
 > [!WARNING]
 > Client-side secrets can be extracted from bundled JavaScript. For production deployments with sensitive requirements, use your own backend server to proxy requests instead of embedding secrets in frontend code.
 
-BentoPDF uses client-side HMAC as a deterrent against casual abuse, but accepts this tradeoff due to its fully client-side architecture. To enable:
+BankPDF uses client-side HMAC as a deterrent against casual abuse, but accepts this tradeoff due to its fully client-side architecture. To enable:
 
 ```bash
 # Generate a secret
@@ -1118,24 +1118,24 @@ export VITE_CORS_PROXY_SECRET="your-secret"
 DOCKER_BUILDKIT=1 docker build \
   --secret id=VITE_CORS_PROXY_URL,env=VITE_CORS_PROXY_URL \
   --secret id=VITE_CORS_PROXY_SECRET,env=VITE_CORS_PROXY_SECRET \
-  -t your-bentopdf .
+  -t your-bankpdf .
 ```
 
 ### 📦 Version Management
 
-BentoPDF publishes two image variants. Both ship the same PDF tools. The difference is purely whether the bentopdf.com marketing is included.
+BankPDF publishes two image variants. Both ship the same PDF tools. The difference is purely whether the bankpdf.com marketing is included.
 
 **Self-Hosted build** — recommended for internal/team/organization deployments:
 
-- **Latest**: `ghcr.io/alam00000/bentopdf-simple:latest`
-- **Specific Version**: `ghcr.io/alam00000/bentopdf-simple:1.0.0`
-- **Docker Hub**: `bentopdfteam/bentopdf-simple:latest`
+- **Latest**: `ghcr.io/alam00000/bankpdf-simple:latest`
+- **Specific Version**: `ghcr.io/alam00000/bankpdf-simple:1.0.0`
+- **Docker Hub**: `bankpdfteam/bankpdf-simple:latest`
 
-**Commercial build** — used by bentopdf.com itself and by commercial license holders running public-facing deployments:
+**Commercial build** — used by bankpdf.com itself and by commercial license holders running public-facing deployments:
 
-- **Latest**: `ghcr.io/alam00000/bentopdf:latest`
-- **Specific Version**: `ghcr.io/alam00000/bentopdf:1.0.0`
-- **Docker Hub**: `bentopdfteam/bentopdf:latest`
+- **Latest**: `ghcr.io/alam00000/bankpdf:latest`
+- **Specific Version**: `ghcr.io/alam00000/bankpdf:1.0.0`
+- **Docker Hub**: `bankpdfteam/bankpdf:latest`
 
 #### Quick Release
 
@@ -1159,8 +1159,8 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/alam00000/bentopdf.git
-   cd bentopdf
+   git clone https://github.com/alam00000/bankpdf.git
+   cd bankpdf
    ```
 
 2. **Install Dependencies**:
@@ -1184,8 +1184,8 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/alam00000/bentopdf.git
-   cd bentopdf
+   git clone https://github.com/alam00000/bankpdf.git
+   cd bankpdf
    ```
 
 2. **Run with Docker Compose**:
@@ -1209,7 +1209,7 @@ For detailed release instructions, see [RELEASE.md](RELEASE.md).
 
 ## 🛠️ Tech Stack & Background
 
-BentoPDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript**. As the project grew, it was migrated to a modern stack for better maintainability and scalability:
+BankPDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript**. As the project grew, it was migrated to a modern stack for better maintainability and scalability:
 
 - **Vite**: A fast build tool for modern web development.
 - **TypeScript**: For type safety and an improved developer experience.
@@ -1224,8 +1224,8 @@ BentoPDF was originally built using **HTML**, **CSS**, and **vanilla JavaScript*
 
 | Product            | Description                                                                                                                           | Links                                                                                                  |
 | :----------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :----------------------------------------------------------------------------------------------------- |
-| **Kura**           | PDF standards and preflight engine. Converts to every PDF/A level, PDF/UA, PDF/X, PDF/E and PDF/VT, and can perform preflight checks. | [Website](https://kura.bentopdf.com) · [GitHub](https://github.com/alam00000/bentopdf-kura)            |
-| **Hyper Compress** | The best open source PDF compression engine.                                                                                          | [Website](https://hyper.bentopdf.com) · [GitHub](https://github.com/alam00000/bentopdf-hyper-compress) |
+| **Kura**           | PDF standards and preflight engine. Converts to every PDF/A level, PDF/UA, PDF/X, PDF/E and PDF/VT, and can perform preflight checks. | [Website](https://kura.bankpdf.com) · [GitHub](https://github.com/alam00000/bankpdf-kura)            |
+| **Hyper Compress** | The best open source PDF compression engine.                                                                                          | [Website](https://hyper.bankpdf.com) · [GitHub](https://github.com/alam00000/bankpdf-hyper-compress) |
 
 ---
 
@@ -1248,7 +1248,7 @@ We welcome contributions from the community! Here's how you can get started:
 3.  Make your changes and commit them with a clear message.
 4.  **Open a Pull Request** and describe the changes you've made.
 
-Have an idea for a new tool or an improvement? [Open an issue](https://github.com/alam00000/bentopdf/issues) to discuss it first.
+Have an idea for a new tool or an improvement? [Open an issue](https://github.com/alam00000/bankpdf/issues) to discuss it first.
 
 ### 📖 Contributing to Documentation
 
@@ -1281,7 +1281,7 @@ Documentation files are in the `docs/` folder:
 
 ## Special Thanks
 
-BentoPDF wouldn't be possible without the amazing open-source tools and libraries that power it. We'd like to extend our heartfelt thanks to the creators and maintainers of:
+BankPDF wouldn't be possible without the amazing open-source tools and libraries that power it. We'd like to extend our heartfelt thanks to the creators and maintainers of:
 
 **Bundled Libraries:**
 
@@ -1306,6 +1306,6 @@ BentoPDF wouldn't be possible without the amazing open-source tools and librarie
 - **[Ghostscript (GhostPDL)](https://github.com/ArtifexSoftware/ghostpdl)** – For PDF/A conversion and font outlining. _(AGPL-3.0)_
 
 > [!NOTE]
-> AGPL-licensed libraries are not bundled in BentoPDF's source code. They are loaded at runtime from CDN (pre-configured) and can be overridden via environment variables or Advanced Settings.
+> AGPL-licensed libraries are not bundled in BankPDF's source code. They are loaded at runtime from CDN (pre-configured) and can be overridden via environment variables or Advanced Settings.
 
 Your work inspires and empowers developers everywhere. Thank you for making open-source amazing!

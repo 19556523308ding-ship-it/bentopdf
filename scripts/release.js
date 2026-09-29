@@ -131,11 +131,11 @@ function main() {
   execSync(`git push origin ${tagName}`, { stdio: 'inherit' });
 
   console.log(`🎉 Release v${newVersion} complete!`);
-  console.log(`📦 Docker image: bentopdfteam/bentopdf:${newVersion}`);
+  console.log(`📦 Docker image: bankpdfteam/bankpdf:${newVersion}`);
   console.log(`📦 Distribution: dist-${newVersion}.zip`);
   console.log(`📦 Distribution (simple): dist-simple-${newVersion}.zip`);
   console.log(
-    `🏷️  GitHub release: https://github.com/alam00000/bentopdf/releases/tag/${tagName}`
+    `🏷️  GitHub release: https://github.com/alam00000/bankpdf/releases/tag/${tagName}`
   );
 }
 

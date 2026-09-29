@@ -102,7 +102,7 @@ function applyServerTranslations(document, langResources) {
   });
 }
 
-const ORGANIZATION_LD_MARKER = 'data-bentopdf-organization';
+const ORGANIZATION_LD_MARKER = 'data-bankpdf-organization';
 
 function injectOrganizationLd(document) {
   if (document.querySelector(`script[${ORGANIZATION_LD_MARKER}]`)) return;
@@ -120,14 +120,14 @@ function injectOrganizationLd(document) {
   const data = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'BentoPDF',
+    name: 'BankPDF',
     url: SITE_URL,
     logo: `${SITE_URL}/images/favicon.svg`,
     sameAs: [
-      'https://github.com/alam00000/bentopdf',
-      'https://x.com/BentoPDF',
-      'https://www.linkedin.com/company/bentopdf/',
-      'https://www.instagram.com/thebentopdf/',
+      'https://github.com/alam00000/bankpdf',
+      'https://x.com/BankPDF',
+      'https://www.linkedin.com/company/bankpdf/',
+      'https://www.instagram.com/thebankpdf/',
     ],
   };
   const script = document.createElement('script');
@@ -137,8 +137,8 @@ function injectOrganizationLd(document) {
   document.body.appendChild(script);
 }
 
-const BREADCRUMB_MARKER = 'data-bentopdf-breadcrumb';
-const BRAND_NAME = process.env.VITE_BRAND_NAME || 'BentoPDF';
+const BREADCRUMB_MARKER = 'data-bankpdf-breadcrumb';
+const BRAND_NAME = process.env.VITE_BRAND_NAME || 'BankPDF';
 
 function buildLocalHomeHref(lang) {
   const langSegment = lang === 'en' ? '/' : `/${lang}/`;
@@ -267,7 +267,7 @@ function processFileForLanguage(
     title =
       tools[translationKey].pageTitle ||
       (tools[translationKey].name
-        ? `${tools[translationKey].name} - BentoPDF`
+        ? `${tools[translationKey].name} - BankPDF`
         : null);
     description = tools[translationKey].subtitle;
   }

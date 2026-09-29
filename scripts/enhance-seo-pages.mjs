@@ -113,8 +113,8 @@ function injectWebsiteSchema(document) {
     {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
-      name: 'BentoPDF',
-      alternateName: ['Bento PDF', 'BentoPDF.com'],
+      name: 'BankPDF',
+      alternateName: ['BankPDF', 'BankPDF.com'],
       url: `${SITE_URL}/`,
     },
     null,

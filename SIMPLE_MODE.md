@@ -1,14 +1,14 @@
-# Simple Mode for BentoPDF (the Self-Hosted build)
+# Simple Mode for BankPDF (the Self-Hosted build)
 
-Simple Mode is what powers the **Self-Hosted build** of BentoPDF (`bentopdf-simple`). It is **functionally identical** to the Commercial build that powers bentopdf.com — every PDF tool is present and behaves the same. It just hides the marketing chrome (hero, FAQ, testimonials, footer) that only makes sense on the public bentopdf.com site or on a commercial public-facing deployment.
+Simple Mode is what powers the **Self-Hosted build** of BankPDF (`bankpdf-simple`). It is **functionally identical** to the Commercial build that powers bankpdf.com — every PDF tool is present and behaves the same. It just hides the marketing chrome (hero, FAQ, testimonials, footer) that only makes sense on the public bankpdf.com site or on a commercial public-facing deployment.
 
 > **Simple Mode is not a feature-reduced "lite" version.** Every PDF tool — merge, split, edit, sign, OCR, Office conversion, every other tool — works identically in both builds. The only difference is the marketing UI around the tools.
 
-The Commercial build (`ghcr.io/alam00000/bentopdf:latest`) is used by bentopdf.com itself and by commercial license holders running public-facing PDF deployments where the full marketing site makes sense.
+The Commercial build (`ghcr.io/alam00000/bankpdf:latest`) is used by bankpdf.com itself and by commercial license holders running public-facing PDF deployments where the full marketing site makes sense.
 
 ## What Simple Mode Hides
 
-When enabled, Simple Mode hides the following bentopdf.com-specific marketing UI:
+When enabled, Simple Mode hides the following bankpdf.com-specific marketing UI:
 
 - Navigation bar
 - Hero section with marketing content
@@ -31,32 +31,32 @@ Use the pre-built Simple Mode image directly:
 
 ```bash
 # Docker
-docker run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest
+docker run -p 3000:8080 ghcr.io/alam00000/bankpdf-simple:latest
 
 # Podman
-podman run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest
+podman run -p 3000:8080 ghcr.io/alam00000/bankpdf-simple:latest
 ```
 
 **Using Docker Hub:**
 
 ```bash
 # Docker
-docker run -p 3000:8080 bentopdfteam/bentopdf-simple:latest
+docker run -p 3000:8080 bankpdfteam/bankpdf-simple:latest
 
 # Podman
-podman run -p 3000:8080 docker.io/bentopdfteam/bentopdf-simple:latest
+podman run -p 3000:8080 docker.io/bankpdfteam/bankpdf-simple:latest
 ```
 
 Or with Docker Compose / Podman Compose:
 
 ```yaml
 services:
-  bentopdf:
+  bankpdf:
     # Using GitHub Container Registry (Recommended)
-    image: ghcr.io/alam00000/bentopdf-simple:latest
+    image: ghcr.io/alam00000/bankpdf-simple:latest
     # Or using Docker Hub
-    # image: bentopdfteam/bentopdf-simple:latest
-    container_name: bentopdf
+    # image: bankpdfteam/bankpdf-simple:latest
+    container_name: bankpdf
     restart: unless-stopped
     ports:
       - '3000:8080'
@@ -76,8 +76,8 @@ docker compose -f docker-compose.dev.yml up -d
 Build the image with the SIMPLE_MODE build argument:
 
 ```bash
-docker build --build-arg SIMPLE_MODE=true -t bentopdf-simple .
-docker run -p 3000:8080 bentopdf-simple
+docker build --build-arg SIMPLE_MODE=true -t bankpdf-simple .
+docker run -p 3000:8080 bankpdf-simple
 ```
 
 ### Method 4: Using npm Script (Easiest for Local Development)
@@ -118,12 +118,12 @@ This automatically builds and serves Simple Mode on `http://localhost:3000`.
 
 ```bash
 # Docker - Pull and run the Simple Mode image
-docker pull ghcr.io/alam00000/bentopdf-simple:latest
-docker run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest
+docker pull ghcr.io/alam00000/bankpdf-simple:latest
+docker run -p 3000:8080 ghcr.io/alam00000/bankpdf-simple:latest
 
 # Podman
-podman pull ghcr.io/alam00000/bentopdf-simple:latest
-podman run -p 3000:8080 ghcr.io/alam00000/bentopdf-simple:latest
+podman pull ghcr.io/alam00000/bankpdf-simple:latest
+podman run -p 3000:8080 ghcr.io/alam00000/bankpdf-simple:latest
 ```
 
 Open `http://localhost:3000` in your browser.
@@ -143,11 +143,11 @@ Open `http://localhost:3000` in your browser.
 ### Method 4: Compare Both Builds Side-by-Side
 
 ```bash
-# Commercial build (the bentopdf.com look)
-docker run -p 3000:8080 ghcr.io/alam00000/bentopdf:latest
+# Commercial build (the bankpdf.com look)
+docker run -p 3000:8080 ghcr.io/alam00000/bankpdf:latest
 
 # Self-Hosted build (Simple Mode)
-docker run -p 3001:8080 ghcr.io/alam00000/bentopdf-simple:latest
+docker run -p 3001:8080 ghcr.io/alam00000/bankpdf-simple:latest
 
 # Podman users: replace 'docker' with 'podman'
 ```
@@ -173,27 +173,27 @@ When Simple Mode is working correctly, you should see:
 
 **GitHub Container Registry (Recommended):**
 
-- `ghcr.io/alam00000/bentopdf-simple:latest`
-- `ghcr.io/alam00000/bentopdf-simple:v1.0.0` (versioned)
+- `ghcr.io/alam00000/bankpdf-simple:latest`
+- `ghcr.io/alam00000/bankpdf-simple:v1.0.0` (versioned)
 
 **Docker Hub:**
 
-- `bentopdfteam/bentopdf-simple:latest`
-- `bentopdfteam/bentopdf-simple:v1.0.0` (versioned)
+- `bankpdfteam/bankpdf-simple:latest`
+- `bankpdfteam/bankpdf-simple:v1.0.0` (versioned)
 
-### Commercial build — used by bentopdf.com and commercial license holders
+### Commercial build — used by bankpdf.com and commercial license holders
 
-The full marketing site, including hero/FAQ/testimonials/footer. Pull this only if you specifically want the bentopdf.com look — for example, you're running a public-facing PDF deployment under a commercial license.
+The full marketing site, including hero/FAQ/testimonials/footer. Pull this only if you specifically want the bankpdf.com look — for example, you're running a public-facing PDF deployment under a commercial license.
 
 **GitHub Container Registry (Recommended):**
 
-- `ghcr.io/alam00000/bentopdf:latest`
-- `ghcr.io/alam00000/bentopdf:v1.0.0` (versioned)
+- `ghcr.io/alam00000/bankpdf:latest`
+- `ghcr.io/alam00000/bankpdf:v1.0.0` (versioned)
 
 **Docker Hub:**
 
-- `bentopdfteam/bentopdf:latest`
-- `bentopdfteam/bentopdf:v1.0.0` (versioned)
+- `bankpdfteam/bankpdf:latest`
+- `bankpdfteam/bankpdf:v1.0.0` (versioned)
 
 ## 🚀 Production Deployment Examples
 
@@ -201,10 +201,10 @@ The full marketing site, including hero/FAQ/testimonials/footer. Pull this only 
 
 ```yaml
 services:
-  bentopdf:
-    image: ghcr.io/alam00000/bentopdf-simple:latest # Recommended
-    # image: bentopdfteam/bentopdf-simple:latest     # Alternative: Docker Hub
-    container_name: bentopdf
+  bankpdf:
+    image: ghcr.io/alam00000/bankpdf-simple:latest # Recommended
+    # image: bankpdfteam/bankpdf-simple:latest     # Alternative: Docker Hub
+    container_name: bankpdf
     restart: unless-stopped
     ports:
       - '80:8080'
@@ -215,16 +215,16 @@ services:
 
 ### Podman Quadlet (Linux Systemd)
 
-Create `~/.config/containers/systemd/bentopdf-simple.container`:
+Create `~/.config/containers/systemd/bankpdf-simple.container`:
 
 ```ini
 [Unit]
-Description=BentoPDF Simple Mode
+Description=BankPDF Simple Mode
 After=network-online.target
 
 [Container]
-Image=ghcr.io/alam00000/bentopdf-simple:latest
-ContainerName=bentopdf-simple
+Image=ghcr.io/alam00000/bankpdf-simple:latest
+ContainerName=bankpdf-simple
 PublishPort=80:8080
 AutoUpdate=registry
 
@@ -239,12 +239,12 @@ Enable and start:
 
 ```bash
 systemctl --user daemon-reload
-systemctl --user enable --now bentopdf-simple
+systemctl --user enable --now bankpdf-simple
 ```
 
 ## ⚠️ Important Notes
 
-- **Pre-built images**: Use `ghcr.io/alam00000/bentopdf-simple:latest` for Simple Mode (recommended)
+- **Pre-built images**: Use `ghcr.io/alam00000/bankpdf-simple:latest` for Simple Mode (recommended)
 - **Environment variables**: `SIMPLE_MODE=true` only works during build, not runtime
 - **Build-time optimization**: Simple Mode uses dead code elimination for smaller bundles
 - **Same functionality**: All PDF tools work identically in both modes

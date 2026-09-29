@@ -26,7 +26,7 @@ const DEFAULT_WASM_ORIGINS = {
   cpdf: 'https://cdn.jsdelivr.net',
 };
 const DEFAULT_CORS_PROXY_ORIGIN =
-  'https://bentopdf-cors-proxy.bentopdf.workers.dev';
+  'https://bankpdf-cors-proxy.bankpdf.workers.dev';
 const DEFAULT_OCR_FONT_CDN_ORIGIN = 'https://rawcdn.githack.com';
 
 const wasmOrigins = [
