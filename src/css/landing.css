@@ -1501,14 +1501,14 @@ body.lp ::selection {
 
 .lp-footer h3 {
   margin: 0 0 18px;
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--lp-text-2);
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
 }
 
 .lp-footer ul {
   display: grid;
-  gap: 10px;
+  gap: 12px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -1516,12 +1516,13 @@ body.lp ::selection {
 
 .lp-footer ul a {
   font-size: 14px;
-  color: var(--lp-text);
+  font-weight: 500;
+  color: #334155;
   transition: color 0.2s;
 }
 
 .lp-footer ul a:hover {
-  color: var(--lp-accent-3);
+  color: #0f766e;
 }
 
 .lp-footer-brand {
@@ -1529,10 +1530,10 @@ body.lp ::selection {
   align-items: center;
   gap: 10px;
   font-family: var(--lp-display);
-  font-size: 19px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 800;
   letter-spacing: -0.02em;
-  color: var(--lp-text);
+  color: #0f172a;
 }
 
 .lp-footer-brand img {
@@ -1543,15 +1544,15 @@ body.lp ::selection {
 .lp-footer-copy {
   margin: 16px 0 0;
   font-size: 13px;
-  color: var(--lp-text-2);
+  color: #475569;
 }
 
 .lp-footer-version {
   margin: 6px 0 0;
   font-family: var(--lp-mono);
-  font-size: 11px;
-  letter-spacing: 0.08em;
-  color: var(--lp-dim);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  color: #64748b;
 }
 
 .lp-social {

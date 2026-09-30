@@ -1624,12 +1624,16 @@ details > summary .icon {
 .faq-list {
   max-width: 820px;
   margin: 0 auto;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px -4px rgba(11, 37, 69, 0.06);
 }
 
 .faq-d {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  background-color: #2a2a2a;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  background-color: #ffffff;
+  transition: background-color 0.2s;
 }
 
 .faq-d:last-child {
@@ -1647,7 +1651,7 @@ details > summary .icon {
   font-weight: 600;
   letter-spacing: -0.01em;
   line-height: 1.5;
-  color: #f3f3f1;
+  color: #0f172a;
   list-style: none;
   transition:
     color 0.2s,
@@ -1673,18 +1677,21 @@ details > summary .icon {
 }
 
 .faq-d-q:hover {
-  background-color: #383838;
+  background-color: #f8fafc;
+  color: #0f766e;
 }
 
 .faq-d[open] .faq-d-q {
-  color: #a5b4fc;
+  color: #0f766e;
+  background-color: #f8fafc;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.04);
 }
 
 .faq-d-icon {
   flex: none;
   width: 20px;
   height: 20px;
-  color: #b4b4b0;
+  color: #64748b;
   transition:
     transform 0.3s,
     color 0.2s;
@@ -1692,15 +1699,16 @@ details > summary .icon {
 
 .faq-d[open] .faq-d-icon {
   transform: rotate(45deg);
-  color: #818cf8;
+  color: #0f766e;
 }
 
 .faq-d-a {
   margin: 0;
-  padding: 0 24px 24px;
+  padding: 20px 24px 24px;
   font-size: 15px;
-  line-height: 1.65;
-  color: #b4b4b0;
+  line-height: 1.7;
+  color: #334155;
+  background-color: #ffffff;
 }
 
 .faq-d-a p {
