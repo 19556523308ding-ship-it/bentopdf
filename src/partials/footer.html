@@ -1,56 +1,45 @@
 {{#if simpleMode}} {{> footer-simple}} {{else}}
-<footer class="border-t border-slate-200/80 py-12 bg-white/60 backdrop-blur-sm">
-  <div class="container mx-auto px-4">
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-center md:text-left max-w-4xl mx-auto">
-      <div class="mb-6 md:mb-0">
-        <div class="flex items-center justify-center md:justify-start mb-4">
+<footer class="border-t border-slate-200/80 py-14 bg-white/70 backdrop-blur-md">
+  <div class="container mx-auto px-4 max-w-5xl">
+    <div class="flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
+      <div class="flex flex-col items-center md:items-start">
+        <div class="flex items-center mb-3">
           <img
             id="footer-logo"
             src="{{baseUrl}}{{#if brandLogo}}{{brandLogo}}{{else}}images/favicon-no-bg.svg{{/if}}"
             alt="{{#if brandName}}{{brandName}}{{else}}BankPDF{{/if}} Logo"
-            class="h-10 w-10 mr-3"
+            class="h-9 w-9 mr-3"
           />
-          <span id="footer-brand" class="text-xl font-bold text-slate-900">{{#if brandName}}{{brandName}}{{else}}BankPDF{{/if}}</span>
+          <span id="footer-brand" class="text-2xl font-extrabold text-slate-900 tracking-tight">{{#if brandName}}{{brandName}}{{else}}BankPDF{{/if}}</span>
         </div>
-        <p id="footer-copyright" class="text-slate-600 text-sm" {{#unless footerText}}data-i18n="footer.copyright"{{/unless}}>
+        <p id="footer-copyright" class="text-slate-600 text-sm font-normal" {{#unless footerText}}data-i18n="footer.copyright"{{/unless}}>
           {{#if footerText}}{{footerText}}{{else}}&copy; 2026 BankPDF. 保留所有权利。{{/if}}
         </p>
-        <p class="text-slate-500 text-xs mt-2">
+        <p class="text-slate-400 text-xs mt-1.5 font-mono">
           <span data-i18n="footer.version">版本</span>
           <span id="app-version">{{appVersion}}</span>
         </p>
       </div>
 
-      <div class="md:pl-12">
-        <h3 class="font-bold text-slate-900 mb-4 text-base" data-i18n="footer.company">
-          Company
-        </h3>
-        <ul class="space-y-3 text-slate-600 font-medium">
-          <li>
-            <a
-              href="/about"
-              class="hover:text-teal-700 transition-colors"
-              data-i18n="footer.aboutUs"
-              >About Us</a
-            >
-          </li>
-          <li>
-            <a
-              href="/faq"
-              class="hover:text-teal-700 transition-colors"
-              data-i18n="footer.faqLink"
-              >FAQ</a
-            >
-          </li>
-          <li>
-            <a
-              href="/contact"
-              class="hover:text-teal-700 transition-colors"
-              data-i18n="footer.contactUs"
-              >Contact Us</a
-            >
-          </li>
-        </ul>
+      <div class="flex items-center gap-8 md:gap-12 text-sm font-semibold">
+        <a
+          href="/about"
+          class="text-slate-700 hover:text-teal-700 transition-colors py-1"
+          data-i18n="footer.aboutUs"
+          >About Us</a
+        >
+        <a
+          href="/faq"
+          class="text-slate-700 hover:text-teal-700 transition-colors py-1"
+          data-i18n="footer.faqLink"
+          >FAQ</a
+        >
+        <a
+          href="/contact"
+          class="text-slate-700 hover:text-teal-700 transition-colors py-1"
+          data-i18n="footer.contactUs"
+          >Contact Us</a
+        >
       </div>
     </div>
   </div>
